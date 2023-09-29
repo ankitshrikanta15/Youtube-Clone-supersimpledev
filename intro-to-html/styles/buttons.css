@@ -1,0 +1,81 @@
+.subscribe-button {
+    /* the button is called CSS Selector it shows which element we are targeting */
+    /* backgrould or left side of the bellow text is called CSS Property it tell the computer what we are changing and to the right of the computer is CSS value it tell our computer what we are changing the property too a */
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    /* CSS Box Model it determiines 
+    1. How much space an element takes up
+    2. How far it is away from other elements */
+    /*height: 36px;
+    width: 80px;
+    insted of height, width we use here box model*/
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+}
+
+/* pseudo Class it add extra style when we hover  and "opacity" how seethrough a HTML element is it take valur btwn 0&1*/
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+
+.subscribe-button:active {
+    opacity: 0.4;
+}
+
+.join-button {
+    background-color: white;
+    border-color: rgb(4, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(4, 118, 211);
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;    
+}
+
+.join-button:hover {
+    background-color: rgb(4, 118, 211);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
+
+.Tweet-button {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+
+
+}
+
+.Tweet-button:hover {
+    /* box-shadow is the command it can take 4 values 1st one is horizontal , 2nd vertical, 3rd blur and 4th color */
+    /* and also in the last value we will take rgba as a colour a means opacity of the colour */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
